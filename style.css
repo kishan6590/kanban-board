@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.boards {
+  min-height: 97%;
+  width: 21vw;
+  margin: 15px;
+  box-shadow: rgb(123, 118, 118) 0px 1px 4px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.heading {
+  width: 90%;
+  border-radius: 20px;
+  margin-inline: auto;
+  margin-block: 15px;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgba(243, 240, 240, 0.856);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.heading > i {
+  color: red;
+  margin-right: 4px;
+}
+h3 {
+  display: inline;
+}
+.itemStatus {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.itemContent {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Verdana,
+    Geneva, Tahoma, sans-serif;
+
+  font-size: 1.5em;
+}
+.item {
+  background-color: aquamarine;
+  padding: 4px;
+  border-radius: 20px;
+  padding-left: 15px;
+  margin: 9px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.inputBox button {
+  height: 36px;
+  border-radius: 20px;
+  font-size: 1.5em;
+  background-color: cyan;
+  border: none;
+}
+.inputBox button:hover {
+  background-color: brown;
+  background-color: rgba(0, 255, 255, 0.852);
+}
+.inputBox input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 1.5em;
+  margin-top: 5px;
+
+  padding-left: 20px;
+}
+
+.itemContainer {
+  min-height: 417px;
+}

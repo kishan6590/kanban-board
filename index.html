@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="ToDo" class="boards">
+        <div class="heading">
+          <i class="ri-circle-line"></i>
+          <h3 class="status">To Do</h3>
+          <span class="count">3</span>
+          <div class="desc">This is first column</div>
+        </div>
+        <div class="itemContainer"></div>
+
+        <div class="inputBox">
+          <input class="inputField" type="text" placeholder="Add task.." />
+          <button class="btn">Add Task</button>
+        </div>
+      </div>
+
+      <div id="InProgress" class="boards">
+        <div class="heading">
+          <i class="ri-circle-line"></i>
+          <h3 class="status">In Progress</h3>
+          <span class="count">2</span>
+          <div class="desc">This is second column</div>
+        </div>
+        <div class="itemContainer"></div>
+
+        <div class="inputBox">
+          <input class="inputField" type="text" placeholder="Add task.." />
+          <button class="btn">Add Task</button>
+        </div>
+      </div>
+      <div id="Done" class="boards">
+        <div class="heading">
+          <i class="ri-circle-line"></i>
+          <h3 class="status">Done</h3>
+          <span class="count">2</span>
+          <div class="desc">This is third column</div>
+        </div>
+        <div class="itemContainer"></div>
+
+        <div class="inputBox">
+          <input class="inputField" type="text" placeholder="Add task.." />
+          <button class="btn">Add Task</button>
+        </div>
+      </div>
+    </div>
+    <span></span>
+    <script src="script.js"></script>
+  </body>
+</html>
